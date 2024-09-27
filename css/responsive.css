@@ -15,3 +15,32 @@
     padding: 0 20px;
   }
 }
+
+/* smartphone size */
+@media (max-width : 480px){
+  .container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .row{
+    flex-direction: column;
+    row-gap: 3rem;
+  }
+  .row .col{
+    width: 100%;
+  }
+
+  .lessons.text-center{
+    padding-bottom: 3rem;
+  }
+  .steps.text-center{
+    margin: 0;
+  }
+  .why-us{
+    background-color: #222222;
+    padding: 80px 0;
+    margin-bottom: 0; 
+  }
+}
